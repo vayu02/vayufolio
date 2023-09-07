@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -7,7 +7,7 @@ const Contact = () => {
     message: '',
   })
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target
     setFormData({
       ...formData,
@@ -15,7 +15,7 @@ const Contact = () => {
     })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     console.log(formData)
   }
@@ -78,7 +78,13 @@ const Contact = () => {
               name='message'
               placeholder='Your Message'
               value={formData.message}
-              onChange={handleChange}
+              onChange={(e) => {
+                const { name, value } = e.target
+                setFormData({
+                  ...formData,
+                  [name]: value,
+                })
+              }}
               required
             />
           </div>

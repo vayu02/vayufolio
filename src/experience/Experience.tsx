@@ -1,19 +1,8 @@
-import { BsPatchCheckFill } from 'react-icons/bs'
-import { IoLogoHtml5 } from 'react-icons/io'
-import { IoLogoCss3 } from 'react-icons/io'
-import { IoLogoJavascript } from 'react-icons/io'
-import { SiReact } from 'react-icons/si'
-import { SiRedux } from 'react-icons/si'
-import { SiTailwindcss } from 'react-icons/si'
-import { FaNodeJs } from 'react-icons/fa'
-import { SiExpress } from 'react-icons/si'
-import { SiMongodb } from 'react-icons/si'
-import { VscTerminalLinux } from 'react-icons/vsc'
 import { SlTarget } from 'react-icons/sl'
-import CSSImg from '../../public/css.png'
 import { useState } from 'react'
 import { LuSwords } from 'react-icons/lu'
-import NextLogo1 from '../../public/next-js-seeklogo.com.svg'
+import { IoLogoJavascript } from 'react-icons/io'
+import { SiTailwindcss } from 'react-icons/si'
 
 const Experience = () => {
   const [showModal, setShowModal] = useState(false)

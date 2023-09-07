@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
-import { BiHome, BiBookHeart, BiMessageDetail } from 'react-icons/bi'
+import { useState } from 'react'
+import { BiBookHeart, BiMessageDetail } from 'react-icons/bi'
 import { FiUser } from 'react-icons/fi'
 import { PiSuitcaseSimpleBold } from 'react-icons/pi'
 
