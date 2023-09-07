@@ -12,49 +12,51 @@ const Experience = () => {
   }
   return (
     <div className='px-6 py-6 w-[100vw]'>
-      <div className='  flex gap-x-4'>
+      <div className='  lg:flex gap-x-4'>
         <div className='flex-1'>
-          <div className='font-primary p-4 bg-gradient-to-br from-transparent via-blue-950 to-transparent  rounded  h-max text-white flex flex-col gap-y-6  '>
-            <h1 className='text-2xl  '>Experience</h1>
+          <div className='font-primary p-4 bg-gradient-to-br from-transparent via-blue-950 to-transparent rounded h-max text-white flex flex-col gap-y-6 '>
+            <h1 className='text-2xl'>Experience</h1>
 
-            <div className='flex gap-4  w-full '>
+            <div className='flex flex-col gap-4 w-full md:flex-row'>
               <div className='bg-[#CCC] w-max p-1 rounded '>
                 <SlTarget size={40} color={'blue'} />
               </div>
-              <article className='w-full '>
+              <article className='w-full'>
                 <h1>Software Developer</h1>
-                <div className='flex justify-between'>
+                <div className='flex flex-col md:flex-row md:justify-between'>
                   <div
                     className='text-[#eb4a4c] text-[14px] cursor-pointer underline underline-offset-4'
                     onClick={toggleModal}
                   >
                     Exits Fulltime
                   </div>
-                  <div className='text-[#ccc] text-[14px] mr-10 '>
+                  <div className='text-[#ccc] text-[14px] mt-2 md:mt-0'>
                     JULY 2022 - JUN 2023 | 1 yr
                   </div>
                 </div>
               </article>
             </div>
-            <div className='flex gap-4  w-full '>
+
+            <div className='flex flex-col gap-4 w-full md:flex-row'>
               <div className='bg-[#CCC] w-max p-1 rounded '>
                 <SlTarget size={40} color={'blue'} />
               </div>
 
-              <article className='w-full '>
+              <article className='w-full'>
                 <h1>Intern Developer</h1>
-                <div className='flex justify-between'>
+                <div className='flex flex-col md:flex-row md:justify-between'>
                   <div className='text-[14px] text-[#eb4a4c]'>
                     Codify Fulltime
                   </div>
-                  <div className='text-[#ccc] text-[14px] mr-10 '>
+                  <div className='text-[#ccc] text-[14px] mt-2 md:mt-0'>
                     JULY 2022 - JUN 2023 | 3 Months
                   </div>
                 </div>
               </article>
             </div>
           </div>
-          <div className='mt-4 text-[#ccc] rounded bg-gradient-to-br from-transparent via-blue-950 to-transparent  p-4 text-[14.5px] leading-relaxed '>
+
+          <div className='mt-4 text-[#ccc] rounded bg-gradient-to-br from-transparent via-blue-950 to-transparent p-4 text-[14.5px] leading-relaxed '>
             <h1 className='font-bold text-2xl underline underline-offset-4 mb-2 '>
               Summary
             </h1>

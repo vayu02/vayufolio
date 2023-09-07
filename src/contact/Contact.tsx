@@ -20,18 +20,97 @@ const Contact = () => {
     console.log(formData)
   }
   return (
+    // <div
+    //   className='min-h-screen flex items-center justify-center '
+    //   id='contact'
+    // >
+    //   <div className='bg-gradient-to-br from-transparent via-blue-950 to-transparent shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 w-full max-w-md border-2 border-blue-950'>
+    //     <h2 className='text-2xl font-bold mb-6 text-center text-[#ddd] flex items-center gap-x-4'>
+    //       Contact Us
+    //     </h2>
+    //     <form onSubmit={handleSubmit}>
+    //       <div className='mb-4'>
+    //         <label
+    //           className='block text-[#ddd] text-sm font-bold mb-2'
+    //           htmlFor='name'
+    //         >
+    //           Name
+    //         </label>
+    //         <input
+    //           className='appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+    //           type='text'
+    //           id='name'
+    //           name='name'
+    //           placeholder='Your Name'
+    //           value={formData.name}
+    //           onChange={handleChange}
+    //           required
+    //         />
+    //       </div>
+    //       <div className='mb-4'>
+    //         <label
+    //           className='block text-[#ddd] text-sm font-bold mb-2'
+    //           htmlFor='email'
+    //         >
+    //           Email
+    //         </label>
+    //         <input
+    //           className='appearance-none border  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+    //           type='email'
+    //           id='email'
+    //           name='email'
+    //           placeholder='Your Email'
+    //           value={formData.email}
+    //           onChange={handleChange}
+    //           required
+    //         />
+    //       </div>
+    //       <div className='mb-6'>
+    //         <label
+    //           className='block text-[#ddd] text-sm font-bold mb-2'
+    //           htmlFor='message'
+    //         >
+    //           Message
+    //         </label>
+    //         <textarea
+    //           className='appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+    //           id='message'
+    //           name='message'
+    //           placeholder='Your Message'
+    //           value={formData.message}
+    //           onChange={(e) => {
+    //             const { name, value } = e.target
+    //             setFormData({
+    //               ...formData,
+    //               [name]: value,
+    //             })
+    //           }}
+    //           required
+    //         />
+    //       </div>
+    //       <div className='flex items-center justify-center'>
+    //         <button
+    //           className='bg-gradient-to-r from-blue-500 to-blue-700 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+    //           type='submit'
+    //         >
+    //           Submit
+    //         </button>
+    //       </div>
+    //     </form>
+    //   </div>
+    // </div>
     <div
-      className='min-h-screen flex items-center justify-center '
+      className='px-4 md:px-0 min-h-screen flex items-center justify-center'
       id='contact'
     >
-      <div className='bg-gradient-to-br from-transparent via-blue-950 to-transparent shadow-md rounded-lg px-8 pt-6 pb-8 mb-4 w-full max-w-md border-2 border-blue-950'>
-        <h2 className='text-2xl font-bold mb-6 text-center text-[#ddd] flex items-center gap-x-4'>
-          Contact Us{' '}
+      <div className='bg-gradient-to-br from-transparent via-blue-950 to-transparent shadow-md rounded-lg px-4 py-6 mb-4 w-full max-w-md md:max-w-lg lg:max-w-xl border-2 border-blue-950'>
+        <h2 className='text-2xl font-bold mb-4 text-center text-[#ddd]'>
+          Contact Us
         </h2>
         <form onSubmit={handleSubmit}>
-          <div className='mb-4'>
+          <div className='mb-3'>
             <label
-              className='block text-[#ddd] text-sm font-bold mb-2'
+              className='block text-[#ddd] text-sm font-bold mb-1'
               htmlFor='name'
             >
               Name
@@ -47,15 +126,15 @@ const Contact = () => {
               required
             />
           </div>
-          <div className='mb-4'>
+          <div className='mb-3'>
             <label
-              className='block text-[#ddd] text-sm font-bold mb-2'
+              className='block text-[#ddd] text-sm font-bold mb-1'
               htmlFor='email'
             >
               Email
             </label>
             <input
-              className='appearance-none border  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+              className='appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
               type='email'
               id='email'
               name='email'
@@ -65,9 +144,9 @@ const Contact = () => {
               required
             />
           </div>
-          <div className='mb-6'>
+          <div className='mb-4'>
             <label
-              className='block text-[#ddd] text-sm font-bold mb-2'
+              className='block text-[#ddd] text-sm font-bold mb-1'
               htmlFor='message'
             >
               Message
