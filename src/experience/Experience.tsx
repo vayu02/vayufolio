@@ -15,7 +15,7 @@ const Experience = () => {
       <div className='  flex gap-x-4'>
         <div className='flex-1'>
           <div className='font-primary p-4 bg-gradient-to-br from-transparent via-blue-950 to-transparent  rounded  h-max text-white flex flex-col gap-y-6  '>
-            <h1 className='text-2xl  '>Experiecne</h1>
+            <h1 className='text-2xl  '>Experience</h1>
 
             <div className='flex gap-4  w-full '>
               <div className='bg-[#CCC] w-max p-1 rounded '>
