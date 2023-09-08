@@ -79,7 +79,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className='  h-[90vh] bg-[#111111] p-4  rounded'>
+        <div className='  h-[90vh] bg-[#111111] p-4  rounded mt-4  lg:mt-0'>
           <h1 className='text-white text-center text-xl'>Tools</h1>
           <div className='grid grid-cols-3 justify-center gap-6 '>
             <article>
