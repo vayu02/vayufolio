@@ -1,9 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="J_IiHIukCSgyeeP1hh7a">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-1" value="Client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="230" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-2" value="Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YA0WI1kNVQdbmEoPN5E6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-3" value="&lt;div&gt;Client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Download agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.133;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YA0WI1kNVQdbmEoPN5E6-2" target="YA0WI1kNVQdbmEoPN5E6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YA0WI1kNVQdbmEoPN5E6-1" target="YA0WI1kNVQdbmEoPN5E6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-12" value="User vists pwa and downloads and runs agent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-13" value="Analyzer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.111;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YA0WI1kNVQdbmEoPN5E6-2" target="YA0WI1kNVQdbmEoPN5E6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.929;entryY=0.85;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YA0WI1kNVQdbmEoPN5E6-13" target="YA0WI1kNVQdbmEoPN5E6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-16" value="Socket connection between agent and pwa&lt;br&gt;agent sends info to display on pwa&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="340" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YA0WI1kNVQdbmEoPN5E6-19" value="Agent Communicates with Analyzer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
